@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Military Patrol Group</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#090b0e;--card:#0e1217;--red:#c0392b;--hi:#e5534b;--tx:#e8e8e8;--mu:#9aa0a6;--ok:#2ea36b}
+*{box-sizing:border-box;margin:0}
+body{background:var(--bg);color:var(--tx);font:14px Inter,sans-serif}
+h1,h2,h3,.bb{font-family:'Bebas Neue',sans-serif;font-weight:400;letter-spacing:.03em}
+header,footer{display:flex;align-items:center;gap:36px;padding:12px 40px;background:#080a0d;border-bottom:1px solid var(--red)}
+.logo{width:64px;height:64px;flex:none;border-radius:50%;border:2px solid #ddd;background:url(assets/logo.png) center/cover,radial-gradient(#c0392b,#5a1411)}
+.brand b{display:block;font-size:38px;line-height:.9}.brand span{color:var(--red);font-size:30px;line-height:1}
+nav{display:flex;gap:28px}nav a{color:var(--tx);text-decoration:none;padding:10px 0}nav a.on{color:var(--hi);border-bottom:2px solid var(--hi)}
+.tag{margin-left:auto;letter-spacing:.3em;font-size:11px;color:var(--mu)}
+.hero{padding:60px 50px;min-height:290px;border-bottom:1px solid var(--red);background:linear-gradient(90deg,#090b0e 20%,transparent 80%),url(assets/hero.jpg) center/cover,radial-gradient(circle at 80% 20%,#7a2a22,#1a0d0d 60%,#090b0e)}
+.hero h1{font-size:76px;line-height:1;color:#ddd}.sub{font-size:22px;color:#bbb;margin:6px 0 30px}.quote{border-left:4px solid var(--red);padding-left:24px;max-width:420px;font-size:15px}
+main{display:grid;grid-template-columns:1fr 1fr;gap:28px;padding:30px 40px;max-width:1300px;margin:auto}
+.col{display:grid;gap:20px;align-content:start}
+.card{background:var(--card);border:1px solid #1d2229;border-radius:10px;padding:20px}
+.hd{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}.hd h2{font-size:28px}
+.nav{display:flex;gap:20px;align-items:center}
+button,select{background:none;border:1px solid #2a3038;color:var(--tx);border-radius:6px;padding:6px 10px;cursor:pointer}select option{background:#0e1217}
+.grid{display:grid;grid-template-columns:repeat(7,1fr);border:1px solid #1d2229}
+.wd{background:#7a1f1c;text-align:center;padding:12px 0}
+.day{height:70px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;border:1px solid #1a1f26;cursor:pointer;font-weight:500}
+.day:hover{background:#171c23}.day.gd{background:#1b1214}.day.sel{background:#3a1816;outline:1px solid var(--red)}
+.day i{display:flex;gap:3px;height:6px}u{width:6px;height:6px;border-radius:50%}
+.sub2{font-size:22px;margin:22px 0 10px}
+.it{border:1px solid #2a1a1a;border-left:4px solid;border-radius:6px;padding:12px 16px;margin-bottom:8px;cursor:pointer}.it p,.mu{color:var(--mu);font-size:13px;margin-top:4px}
+.ev{position:relative;min-height:180px;border-radius:8px;background:linear-gradient(90deg,#000c,#0005),url(assets/event.jpg) center/cover,linear-gradient(135deg,#1c2a1c,#3a1816);display:flex;align-items:flex-end}
+.in{padding:4px 18px;border-left:4px solid var(--red);margin:0 0 16px}.in h3{font-size:28px}.in p{margin-top:5px}
+.db{position:absolute;top:14px;right:14px;background:#7a1f1c;border:1px solid var(--hi);border-radius:6px;padding:8px 14px;text-align:center;font-size:11px}.db b{display:block;font:44px 'Bebas Neue'}
+.tw{overflow-x:auto}table{width:100%;border-collapse:collapse}th{background:#7a1f1c;padding:10px;font-size:12px}
+td{padding:9px 10px;border-bottom:1px solid #1d2229;text-align:center}th:first-child,td:first-child{text-align:left}
+.c{display:inline-block;width:24px;height:24px;line-height:24px;border-radius:50%;font-size:12px}.c.y{background:var(--ok)}.c.n{background:var(--red)}
+.bd{margin-left:8px;border:1px solid;border-radius:12px;padding:2px 8px;font-size:11px;white-space:nowrap}.bd.ok{color:#4fd18b}.bd.ko{color:#ff6b6b}
+footer{border-top:1px solid var(--red);border-bottom:0}footer small{color:var(--mu)}
+@media(max-width:900px){main{grid-template-columns:1fr;padding:20px}nav,.tag{display:none}.hero h1{font-size:44px}header,footer{padding:12px 20px}.day{height:52px}}
+</style></head><body>
+<header id=top><div class=logo></div><div class=brand><b class=bb>MILITARY PATROL</b><span class=bb>GROUP</span></div>
+<nav><a href=#top class=on>Home</a><a href=#cal>Calendario</a><a href=#pres>Membri</a><a href=#pres>Presenze</a></nav><div class=tag>SOFTAIR • TEAM • RESPECT</div></header>
+<section class=hero><h1>MILITARY PATROL GROUP</h1><p class=sub>Più di un gioco, una squadra.</p><p class=quote>Il nostro gruppo di softair, unito dalla passione, dal rispetto e dalla voglia di stare insieme.</p></section>
+<main>
+<div id=cal class=card><div class=hd><h2>CALENDARIO</h2><div class=nav><button id=pv aria-label="Mese precedente">‹</button><span id=ml></span><button id=nx aria-label="Mese successivo">›</button></div></div>
+<div id=grid class=grid></div><h3 class=sub2>Eventi del giorno</h3><div id=day></div></div>
+<div class=col><div class=card id=det></div>
+<div id=pres class=card><div class=hd><h2>MEMBRI E PRESENZE</h2><select id=flt><option value=all>Tutti i membri<option value=ok>Presenze sufficienti<option value=ko>Presenze insufficienti</select></div><div class=tw><table id=tb></table></div></div></div>
+</main>
+<footer><div class=logo></div><div class=brand><b class=bb>MILITARY PATROL</b><span class=bb>GROUP</span></div><div class=tag>SOFTAIR • TEAM • RESPECT</div><small>© 2026 Military Patrol Group. Tutti i diritti riservati.</small></footer>
+<script>
+const MN=['Gennaio','Febbraio','Marzo','Aprile','Maggio','Giugno','Luglio','Agosto','Settembre','Ottobre','Novembre','Dicembre'],DN=['Lun','Mar','Mer','Gio','Ven','Sab','Dom'],DF=['Domenica','Lunedì','Martedì','Mercoledì','Giovedì','Venerdì','Sabato'];
+const $=s=>document.querySelector(s),p2=n=>String(n).padStart(2,'0'),K=(y,m,d)=>`${y}-${p2(m+1)}-${p2(d)}`;
+const COL={partita:'#e5534b',riunione:'#e0a030',altro:'#4a90d9'};
+let D,Y,M,sel,evId;
+const evs=k=>D.events.filter(e=>e.date===k).sort((a,b)=>(a.time||'').localeCompare(b.time||''));
+const att=(k,m)=>(D.attendance[k]||[]).includes(m);
+// 4 giornate di gioco del mese: da data.json, altrimenti le prime 4 domeniche
+function gd(y,m){const ym=y+'-'+p2(m+1);if(D.game_days[ym])return D.game_days[ym];const r=[];for(let d=1;d<=new Date(y,m+1,0).getDate();d++)if(new Date(y,m,d).getDay()==0)r.push(K(y,m,d));return r.slice(0,4)}
+function cal(){
+ $('#ml').textContent=MN[M]+' '+Y;
+ const g=gd(Y,M),off=(new Date(Y,M,1).getDay()+6)%7,n=new Date(Y,M+1,0).getDate();
+ let h=DN.map(d=>`<div class=wd>${d}</div>`).join('')+'<div></div>'.repeat(off);
+ for(let d=1;d<=n;d++){const k=K(Y,M,d);h+=`<div class="day${k==sel?' sel':''}${g.includes(k)?' gd':''}" data-k=${k}>${d}<i>${evs(k).slice(0,3).map(e=>`<u style="background:${COL[e.type]||COL.altro}"></u>`).join('')}</i></div>`}
+ $('#grid').innerHTML=h;
+ document.querySelectorAll('.day').forEach(e=>e.onclick=()=>{sel=e.dataset.k;evId=null;render()});
+}
+function det(){
+ const l=evs(sel),e=l.find(x=>x.id==evId)||l[0],d=new Date(sel+'T00:00');
+ $('#det').innerHTML=`<div class=hd><h2>DETTAGLIO EVENTO</h2></div><div class=ev>`+(e?`<div class=in><h3>${e.title}</h3><p>📍 ${e.place||'-'}</p><p>🕒 Ore ${e.time||'-'}</p><p>${e.notes||''}</p></div>`:`<div class=in><h3>Nessun evento</h3></div>`)+`<div class=db>${DF[d.getDay()].toUpperCase()}<b>${d.getDate()}</b>${MN[d.getMonth()].toUpperCase()}</div></div>`;
+}
+function dayl(){
+ const l=evs(sel);
+ $('#day').innerHTML=l.length?l.map(e=>`<div class=it data-i=${e.id} style="border-left-color:${COL[e.type]||COL.altro}"><b>${e.title}</b><p>📍 ${e.place||'-'}</p><p>🕒 Ore ${e.time||'-'}</p><p>${e.notes||''}</p></div>`).join(''):'<p class=mu>Nessun evento in questa data.</p>';
+ document.querySelectorAll('.it').forEach(x=>x.onclick=()=>{evId=x.dataset.i;det()});
+}
+function tab(){
+ const g=gd(Y,M),f=$('#flt').value;
+ let h=`<tr><th>Membro</th>${g.map(k=>`<th>${+k.slice(8)} ${MN[+k.slice(5,7)-1].slice(0,3)}</th>`).join('')}<th>Presenze</th></tr>`;
+ D.members.forEach(m=>{const c=g.filter(k=>att(k,m)).length,ok=c>=2;if(f=='ok'&&!ok||f=='ko'&&ok)return;
+  h+=`<tr><td>${m}</td>${g.map(k=>`<td><span class="c ${att(k,m)?'y">✓':'n">✕'}</span></td>`).join('')}<td>${c}/${g.length}<span class="bd ${ok?'ok':'ko'}">${ok?'Presenze sufficienti':'Presenze insufficienti'}</span></td></tr>`});
+ $('#tb').innerHTML=h;
+}
+const render=()=>{cal();det();dayl();tab()};
+const go=n=>{M+=n;if(M<0){M=11;Y--}if(M>11){M=0;Y++}cal();tab()};
+$('#pv').onclick=()=>go(-1);$('#nx').onclick=()=>go(1);$('#flt').onchange=tab;
+fetch('data/data.json?'+Date.now()).then(r=>r.json()).then(j=>{
+ D=j;const t=new Date().toISOString().slice(0,10),s=[...D.events].sort((a,b)=>a.date.localeCompare(b.date)),e=s.find(x=>x.date>=t)||s[s.length-1];
+ sel=e?e.date:t;Y=+sel.slice(0,4);M=+sel.slice(5,7)-1;render();
+}).catch(()=>document.body.insertAdjacentHTML('beforeend','<p style="padding:20px">Errore nel caricamento di data/data.json</p>'));
+</script></body></html>

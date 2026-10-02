@@ -1,0 +1,19 @@
+{
+ "members": ["Marco Rossi", "Luca Bianchi", "Giovanni Verdi", "Andrea Ferrari", "Davide Neri", "Simone Conti"],
+ "game_days": {
+  "2026-09": ["2026-09-06", "2026-09-13", "2026-09-20", "2026-09-27"]
+ },
+ "attendance": {
+  "2026-09-06": ["Marco Rossi", "Luca Bianchi", "Giovanni Verdi", "Davide Neri", "Simone Conti"],
+  "2026-09-13": ["Marco Rossi", "Giovanni Verdi", "Simone Conti"],
+  "2026-09-20": ["Luca Bianchi", "Giovanni Verdi", "Simone Conti"],
+  "2026-09-27": []
+ },
+ "events": [
+  {"id": 1, "date": "2026-09-06", "title": "Partita", "place": "Campo comunale", "time": "18:00", "notes": "Ritrovo ore 17:30. Portare tutto l'equipaggiamento.", "type": "partita"},
+  {"id": 2, "date": "2026-09-13", "title": "Partita", "place": "Campo comunale", "time": "18:00", "notes": "Ritrovo ore 17:30.", "type": "partita"},
+  {"id": 3, "date": "2026-09-20", "title": "Partita", "place": "Campo comunale", "time": "18:00", "notes": "Ritrovo ore 17:30.", "type": "partita"},
+  {"id": 4, "date": "2026-09-27", "title": "Partita", "place": "Campo comunale", "time": "18:00", "notes": "Ritrovo ore 17:30.", "type": "partita"},
+  {"id": 5, "date": "2026-09-27", "title": "Riunione di squadra", "place": "Sede", "time": "20:30", "notes": "Programmazione eventi di ottobre.", "type": "riunione"}
+ ]
+}
