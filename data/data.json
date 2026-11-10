@@ -1,8 +1,23 @@
 {
  "members": [
-  "Andrea De Filippis",
-  "Marco Repole",
-  "Francesco Carbone"
+  "Repole Marco",
+  "De Filippis Andrea",
+  "Ferrari Antonio Gabriele",
+  "De Rose Francesco",
+  "Carbone Francesco",
+  "Ferraro Christian",
+  "Maione Mattia Alessandro",
+  "Marrello Alessandro",
+  "Miniaci Carmelo",
+  "Noia Attilio",
+  "Pasqua Kevin",
+  "Pecora Marco Achille",
+  "Sidoti Andrea",
+  "Vivacqua Lorenzo Benito",
+  "Forlano Francesco",
+  "Vescio Federico",
+  "Bruni Benio",
+  "Davide Magliocchi"
  ],
  "game_days": {
   "2026-09": [
@@ -45,22 +60,22 @@
  },
  "events": [
   {
-   "id": 1,
-   "date": "2026-10-04",
-   "title": "OP ZERO FALL",
-   "place": "Campo Grimaldi",
-   "time": "7:15",
-   "notes": "Per piu info contattare al 123 456 7890",
-   "type": "partita"
-  },
-  {
    "id": 2,
    "date": "2026-10-14",
    "title": "Riunione MPG",
-   "place": "Sede",
-   "time": "18:00",
+   "place": "Sede MPG",
+   "time": "20:30",
    "notes": "Riunione di squadra, si prega di essere presenti.",
    "type": "riunione"
+  },
+  {
+   "id": 3,
+   "date": "2026-11-22",
+   "title": "Prima Tappa Campionato LIBERTAS",
+   "place": "Commando Brutia, Brigata Tre Colli",
+   "time": "00:00",
+   "notes": "",
+   "type": "partita"
   }
  ]
 }
