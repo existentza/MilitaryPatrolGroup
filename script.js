@@ -25,7 +25,13 @@ const MN = [
 const $ = (s) => document.querySelector(s),
   p2 = (n) => String(n).padStart(2, "0"),
   K = (y, m, d) => `${y}-${p2(m + 1)}-${p2(d)}`;
-const COL = { partita: "#e5534b", riunione: "#e0a030", campionato: "#9f30e0", altro: "#4a90d9" };
+const COL = {
+  partita: "#e5534b",
+  riunione: "#e0a030",
+  campionato: "#9f30e0",
+  milsim: "#196810",
+  altro: "#4a90d9",
+};
 let D, Y, M, sel, evId;
 const evs = (k) =>
   D.events
