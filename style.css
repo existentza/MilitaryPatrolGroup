@@ -296,6 +296,12 @@ footer {
 footer small {
   color: var(--mu);
 }
+footer .dev {
+  display: block;
+  margin-top: 4px;
+  font-size: 10px;
+  opacity: 0.6;
+}
 @media (max-width: 900px) {
   main {
     grid-template-columns: 1fr;

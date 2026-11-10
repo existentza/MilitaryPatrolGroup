@@ -141,7 +141,11 @@ fetch("data/data.json?" + Date.now())
   .then((r) => r.json())
   .then((j) => {
     D = j;
-    const t = new Date().toISOString().slice(0, 10),
+    // normalizza le date: accetta sia "2027/01/17" che "2027-01-17"
+    const nd = (s) => String(s || "").trim().replace(/\//g, "-");
+    D.events.forEach((e) => (e.date = nd(e.date)));
+    const n = new Date(),
+      t = K(n.getFullYear(), n.getMonth(), n.getDate()),
       s = [...D.events].sort((a, b) => a.date.localeCompare(b.date)),
       e = s.find((x) => x.date >= t) || s[s.length - 1];
     sel = e ? e.date : t;
