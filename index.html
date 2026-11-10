@@ -2,10 +2,16 @@
 <html lang="it">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#080a0d" />
     <title>Military Patrol Group</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
@@ -25,9 +31,7 @@
     <section class="hero">
       <h1>MILITARY PATROL GROUP</h1>
       <p class="sub">Più di un gioco, una squadra.</p>
-      <p class="quote">
-        PASSIONE • RISPETTO • COMPETITIVITÀ
-      </p>
+      <p class="quote">PASSIONE • RISPETTO • COMPETITIVITÀ</p>
     </section>
     <main>
       <div id="cal" class="card">
@@ -36,10 +40,12 @@
           <div class="nav">
             <button id="pv" aria-label="Mese precedente">‹</button
             ><span id="ml"></span
-            ><button id="nx" aria-label="Mese successivo">›</button>
+            ><button id="nx" aria-label="Mese successivo">›</button
+            ><button id="tdb" class="today">Oggi</button>
           </div>
         </div>
         <div id="grid" class="grid"></div>
+        <div id="lg" class="legend"></div>
         <h3 class="sub2">Eventi del giorno</h3>
         <div id="day"></div>
       </div>
@@ -48,7 +54,7 @@
         <div id="pres" class="card">
           <div class="hd">
             <h2>MEMBRI E PRESENZE</h2>
-            <select id="flt">
+            <select id="flt" aria-label="Filtra membri">
               <option value="all">Tutti i membri</option>
               <option value="ok">Presenze sufficienti</option>
               <option value="ko">Presenze insufficienti</option>
