@@ -195,6 +195,33 @@
    "time": "08:00",
    "notes": "",
    "type": "partita"
+  },
+  {
+   "id": 15,
+   "date": "2026-11-12",
+   "title": "Partita Notturna - Brutia",
+   "place": "Campo Brutia",
+   "time": "17:00",
+   "notes": "Fino alle 21:00",
+   "type": "partita"
+  },
+  {
+   "id": 16,
+   "date": "2026-11-18",
+   "title": "Riunione Campionato LIBERTAS",
+   "place": "Sede MPG",
+   "time": "00:00",
+   "notes": "Orario da Stabilire",
+   "type": "riunione"
+  },
+  {
+   "id": 17,
+   "date": "2026-11-15",
+   "title": "Partita Legione MOBI",
+   "place": "Legione MOBI",
+   "time": "08:00",
+   "notes": "Invito a giocare dalla Legione MOBI",
+   "type": "partita"
   }
  ]
 }
